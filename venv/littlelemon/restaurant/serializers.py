@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import Menu,Booking
 
+
 class MenuItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Menu
