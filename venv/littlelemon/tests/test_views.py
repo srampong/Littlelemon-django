@@ -10,3 +10,4 @@ class MenuItemTest(TestCase):
    def test_getall(self):
         menuitems = Menu.objects.all()
         self.assertEqual(str(menuitems),str(Menu.objects.all()))
+        
